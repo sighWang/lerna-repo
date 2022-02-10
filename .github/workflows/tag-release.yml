@@ -13,7 +13,6 @@ jobs:
     steps:
       - name: "Build & test"
         run: |
-          yarn run publish
           echo "done!"
 
       - uses: "marvinpinto/action-automatic-releases@latest"
