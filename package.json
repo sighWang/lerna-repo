@@ -8,6 +8,6 @@
     "registry": "http://localhost:4873"
   },
   "scripts": {
-    "publish": "lerna publish"
+    "publish": "lerna publish from-package"
   }
 }
